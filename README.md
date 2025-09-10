@@ -1,4 +1,4 @@
-<p align="center">
+  <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" /></a>
 </p>
 
@@ -24,12 +24,16 @@
 ## Description
 
 Biblioteca API — Cynthia Sawaya
+Trabalho de Pos Graduaçao - FAEX
 
 ## Project setup
 
-```bash
-$ npm install
-```
+src/
+ ┣ auth/        # Autenticação e JWT
+ ┣ users/       # Usuários (CRUD, roles)
+ ┣ books/       # Livros (CRUD, disponibilidade)
+ ┣ prisma/      # Configuração do Prisma e acesso ao BD
+ ┣ main.ts      # Bootstrap da aplicação
 
 ## Compile and run the project
 
