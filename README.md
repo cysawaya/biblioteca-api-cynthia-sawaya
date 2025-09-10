@@ -27,13 +27,14 @@ Biblioteca API — Cynthia Sawaya
 Trabalho de Pos Graduaçao - FAEX
 
 ## Project setup
-
+```bash
 src/
  ┣ auth/        # Autenticação e JWT
  ┣ users/       # Usuários (CRUD, roles)
  ┣ books/       # Livros (CRUD, disponibilidade)
  ┣ prisma/      # Configuração do Prisma e acesso ao BD
  ┣ main.ts      # Bootstrap da aplicação
+```
 
 ## Compile and run the project
 
