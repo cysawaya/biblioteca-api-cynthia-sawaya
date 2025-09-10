@@ -49,17 +49,11 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
-## Run tests
+## Run tests POSTMAN
 
 ```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
+Na raiz do projeto existe a collection do Postman (biblioteca-api.postman_collection.json).
+Configure a variável {{base_url}} com http://localhost:3000 e {{jwt}} após o login.
 ```
 
 ## Deployment
@@ -95,8 +89,6 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## Stay in touch
 
 - Author - Cynthia Sawaya
--  Pós-graduação 
+-  Pós-graduação FAEX
 
-## License
 
-Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
