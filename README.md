@@ -39,21 +39,33 @@ src/
 ## Compile and run the project
 
 ```bash
-# development
-$ npm run start
+1. Clone o repositório
+git clone https://github.com/seu-usuario/biblioteca-api-ezequiel-farias.git
+cd biblioteca-api-ezequiel-farias
+2. Instale as dependências
+npm install
+3. Configure o arquivo .env
+Crie um arquivo .env na raiz do projeto com o conteúdo:
 
-# watch mode
-$ npm run start:dev
+DATABASE_URL="mysql://root:senha@localhost:3306/biblioteca_api"
+JWT_SECRET="root1"
+PORT=3006
+⚠️ Altere root e senha conforme seu ambiente MySQL.
 
-# production mode
-$ npm run start:prod
+4. Rodar as migrations
+npx prisma migrate dev
+5. Executar o projeto
+npm run start:dev
+🔑 Autenticação
+A autenticação é baseada em JWT (Bearer Token).
+Após login, você receberá um access_token que deve ser enviado no header:
 ```
 
 ## tests Postman
 
 ```bash
 Na raiz do projeto existe a collection do Postman (biblioteca-api.postman_collection.json).
-Configure a variável {{base_url}} com http://localhost:3000 e {{jwt}} após o login.
+Configure a variável {{base_url}} com http://localhost:3006 e {{jwt}} após o login.
 ```
 
 ## Deployment
@@ -82,9 +94,7 @@ Check out a few resources that may come in handy when working with NestJS:
 - To stay in the loop and get updates, follow us on [X](https://x.com/nestframework) and [LinkedIn](https://linkedin.com/company/nestjs).
 - Looking for a job, or have a job to offer? Check out our official [Jobs board](https://jobs.nestjs.com).
 
-## Support
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
 
 ## Stay in touch
 
