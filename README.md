@@ -49,7 +49,7 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
-## Run tests POSTMAN
+## tests Postman
 
 ```bash
 Na raiz do projeto existe a collection do Postman (biblioteca-api.postman_collection.json).
