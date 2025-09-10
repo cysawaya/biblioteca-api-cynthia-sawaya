@@ -29,11 +29,11 @@ Trabalho de Pos Graduaçao - FAEX
 ## Project setup
 
 src/
- ┣ auth/        # Autenticação e JWT
- ┣ users/       # Usuários (CRUD, roles)
- ┣ books/       # Livros (CRUD, disponibilidade)
- ┣ prisma/      # Configuração do Prisma e acesso ao BD
- ┣ main.ts      # Bootstrap da aplicação
+ auth/        # Autenticação e JWT
+ users/       # Usuários (CRUD, roles)
+ books/       # Livros (CRUD, disponibilidade)
+ prisma/      # Configuração do Prisma e acesso ao BD
+ main.ts      # Bootstrap da aplicação
 
 ## Compile and run the project
 
