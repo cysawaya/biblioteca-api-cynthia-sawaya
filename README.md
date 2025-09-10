@@ -42,8 +42,10 @@ src/
 1. Clone o repositório
 git clone https://github.com/seu-usuario/biblioteca-api-cynthia-sawaya.git
 cd biblioteca-api-cynthia-sawaya
+
 2. Instale as dependências
 npm install
+
 3. Configure o arquivo .env
 Crie um arquivo .env na raiz do projeto com o conteúdo:
 
